@@ -1,4 +1,10 @@
-# Algorithms and Data Structures
+Algorithms and Data Structures
+==============================
+
+[![Swift Version](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://developer.apple.com/swift)
+[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20macOS-lightgrey.svg)](https://www.apple.com/ru/ios)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE)
+
 This repository for different algorithms and data structures implementation.
 
 ## Algorithms
