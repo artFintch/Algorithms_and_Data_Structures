@@ -29,7 +29,7 @@ public final class LinkedList<Value> {
 	
 	public func append(value: Value) {
 		let newNode = Node(value: value)
-		if head == nil {
+		if isEmpty {
 			head = newNode
 		} else {
 			tail?.next = newNode
