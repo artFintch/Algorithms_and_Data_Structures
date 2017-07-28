@@ -37,7 +37,7 @@ public final class LinkedList<Value> {
 		count += 1
 	}
 	
-	public func insert(value: Value, at index: Int) -> Bool {
+	@discardableResult public func insert(value: Value, at index: Int) -> Bool {
 		if index < 0 || index > count { return false }
 		if index == count {
 			append(value: value)
@@ -66,16 +66,21 @@ public final class LinkedList<Value> {
 		count = 0
 	}
 	
-	public func removeLast() {
+	@discardableResult public func removeLast() -> Value? {
 		if count <= 1 {
+			let headValue = head?.value
 			removeAll()
+			return headValue
 		} else {
-			nodeAt(index: count - 2)?.next = nil
+			let beforeTail = nodeAt(index: count - 2)
+			let tail = beforeTail?.next
+			beforeTail?.next = nil
 			count -= 1
+			return tail?.value
 		}
 	}
 	
-	public func remove(at index: Int) -> Value? {
+	@discardableResult public func remove(at index: Int) -> Value? {
 		if index < 0 || index >= count { return nil }
 		if isEmpty { return nil }
 		
