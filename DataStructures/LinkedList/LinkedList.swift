@@ -10,16 +10,6 @@ import Foundation
 
 public final class LinkedList<Value> {
 	
-	private typealias Node = ListNode<Value>
-	private final class ListNode<Value> {
-		let value: Value
-		var next: Node?
-		
-		init(value: Value) {
-			self.value = value
-		}
-	}
-	
 	public var first: Value? { return head?.value }
 	public var last: Value? { return tail?.value }
 	public var isEmpty: Bool { return head == nil }
@@ -105,6 +95,16 @@ public final class LinkedList<Value> {
 	}
 	
 	// MARK: - Private
+	
+	private typealias Node = ListNode<Value>
+	private final class ListNode<Value> {
+		let value: Value
+		var next: Node?
+		
+		init(value: Value) {
+			self.value = value
+		}
+	}
 	
 	private var head: Node?
 	private var tail: Node? {
