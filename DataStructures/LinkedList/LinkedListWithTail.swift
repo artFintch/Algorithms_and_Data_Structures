@@ -86,19 +86,17 @@ public final class LinkedListWithTail<Value> {
 	
 	@discardableResult public func remove(at index: Int) -> Value? {
 		if index < 0 || index >= count { return nil }
+		if index == count - 1 { return removeLast() }
 		if isEmpty { return nil }
 		
 		let prev = nodeAt(index: index - 1)
 		let rem = prev?.next ?? head
 		let next = rem?.next
+		
+		if index == 0 { head = next }
+		
+		prev?.next = next
 		rem?.next = nil
-		if prev == nil {
-			head = next
-		} else if next == nil {
-			tail = prev
-		} else {
-			prev?.next = next
-		}
 		
 		count -= 1
 		return rem?.value
