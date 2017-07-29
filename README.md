@@ -11,8 +11,11 @@ This repository for my learning in different algorithms and data structures impl
 * [Fisher–Yates shuffle](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Fisher–Yates_Shuffle.swift) ([Wiki](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
 
 ## Data Structures
-* [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
-* [Doubly Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
+* Linked List
+  * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
+  * [Tail Optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListWithTail.swift)
+  * [Doubly Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
+  * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListTests.swift)
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
