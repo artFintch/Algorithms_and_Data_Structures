@@ -13,11 +13,11 @@ This repository for my learning in different algorithms and data structures impl
 ## Data Structures
 * Linked List
   * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
-  * [Tail Optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListWithTail.swift)
-  * [Doubly Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
-  * Circular Doubly Linked List
-  * Skip List
-  * Unrolled Linked List
+  * [Tail optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListWithTail.swift)
+  * [Doubly linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
+  * Circular doubly linked list
+  * Skip list
+  * Unrolled linked list
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListTests.swift)
 
 ## License
