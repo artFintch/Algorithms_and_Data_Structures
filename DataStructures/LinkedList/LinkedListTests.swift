@@ -7,13 +7,13 @@
 //
 
 import XCTest
-@testable import DataStructures
+@testable import LinkedList
 
-private class LinkedListTests: XCTestCase {
+class LinkedListTests: XCTestCase {
+    
+	private let list = DoublyLinkedList<Int>()
 	
-	private let list = LinkedListWithTail<Int>()
-	
-    func testAppend() {
+	func testAppend() {
 		XCTAssertTrue(list.isEmpty)
 		
 		list.append(value: 5)
@@ -28,7 +28,7 @@ private class LinkedListTests: XCTestCase {
 		XCTAssertEqual(list.count, 2)
 		XCTAssertEqual(list[1], 9)
 		XCTAssertEqual(list.last, 9)
-    }
+	}
 	
 	func testInsert() {
 		XCTAssertTrue(list.isEmpty)
@@ -124,6 +124,15 @@ private class LinkedListTests: XCTestCase {
 		XCTAssertEqual(list[2], 7)
 		XCTAssertNil(list[-1])
 		XCTAssertNil(list[4])
+	}
+	
+	func testPerformance() {
+		measure {
+			for i in 0...10000 { self.list.append(value: i) }
+			while !self.list.isEmpty {
+				self.list.remove(at: Int(arc4random_uniform(UInt32(self.list.count - 1))))
+			}
+		}
 	}
 	
 }
