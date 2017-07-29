@@ -12,6 +12,7 @@ This repository for my learning in different algorithms and data structures impl
 
 ## Data Structures
 * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
+* [Doubly Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
