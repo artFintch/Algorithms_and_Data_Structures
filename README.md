@@ -21,6 +21,9 @@ This repository for my learning in different algorithms and data structures impl
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListTests.swift)
 * Stack
   * [Stack, based on array](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([Wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
+* Queue
+  * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([Wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
+
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
