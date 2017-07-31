@@ -12,7 +12,7 @@ This repository for my learning in different algorithms and data structures impl
 
 ## Data Structures
 * Linked List
-  * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
+  * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
   * [Tail optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListWithTail.swift)
   * [Doubly linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
   * Circular doubly linked list ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
@@ -23,6 +23,8 @@ This repository for my learning in different algorithms and data structures impl
   * [Stack, based on array](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([Wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
 * Queue
   * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([Wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
+  * Queue, based on linked list
+  * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/QueueTests.swift)
 
 
 ## License
