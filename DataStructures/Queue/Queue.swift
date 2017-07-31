@@ -43,6 +43,7 @@ public struct Queue<T> {
 	// MARK: - Private
 	
 	private enum Const {
+		// Static stored properties not yet supported in generic types.
 		static var maxEmptySpacesPercent: Float { return 0.25 }
 		static var minCountForOptimise: Int { return 50 }
 	}
