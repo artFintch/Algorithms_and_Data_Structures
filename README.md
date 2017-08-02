@@ -20,10 +20,17 @@ This repository for my learning in different algorithms and data structures impl
   * Unrolled linked list ([wiki](https://en.wikipedia.org/wiki/Unrolled_linked_list))
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListTests.swift)
 * Stack
-  * [Stack, based on array](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
+  * [Stack, based on vector](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
+ * Stack, based on linked list
+ * Stack, based on chuncked vector
+ * Stack, with getMin()
+ * Persistence stack
 * Queue
   * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
   * Queue, based on linked list
+  * Circular queue
+  * Queue, with getMin()
+  * Persistence queue
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/QueueTests.swift)
 
 
