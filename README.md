@@ -24,7 +24,6 @@ This repository for my learning in different algorithms and data structures impl
   * Stack, based on linked list
   * Stack, based on chuncked vector
   * Stack, with getMin()
-  * Persistence stack
 * Queue
   * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
   * Queue, based on linked list
