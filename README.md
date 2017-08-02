@@ -29,7 +29,6 @@ This repository for my learning in different algorithms and data structures impl
   * Queue, based on linked list
   * Circular queue
   * Queue, with getMin()
-  * Persistence queue
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/QueueTests.swift)
 
 
