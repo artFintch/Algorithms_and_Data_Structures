@@ -8,21 +8,21 @@ Algorithms and Data Structures
 This repository for my learning in different algorithms and data structures implementation.
 
 ## Algorithms
-* [Fisher–Yates shuffle](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Fisher–Yates_Shuffle.swift) ([Wiki](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
+* [Fisher–Yates shuffle](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Fisher–Yates_Shuffle.swift) ([wiki](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
 
 ## Data Structures
 * Linked List
-  * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Linked_list))
+  * [Linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedList.swift) ([wiki](https://en.wikipedia.org/wiki/Linked_list))
   * [Tail optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListWithTail.swift)
-  * [Doubly linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
-  * Circular doubly linked list ([Wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
-  * Skip list ([Wiki](https://en.wikipedia.org/wiki/Skip_list))
-  * Unrolled linked list ([Wiki](https://en.wikipedia.org/wiki/Unrolled_linked_list))
+  * [Doubly linked list](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/DoublyLinkedList.swift) ([wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
+  * Circular doubly linked list ([wiki](https://en.wikipedia.org/wiki/Doubly_linked_list))
+  * Skip list ([wiki](https://en.wikipedia.org/wiki/Skip_list))
+  * Unrolled linked list ([wiki](https://en.wikipedia.org/wiki/Unrolled_linked_list))
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/LinkedList/LinkedListTests.swift)
 * Stack
-  * [Stack, based on array](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([Wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
+  * [Stack, based on array](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Stack/Stack.swift) ([wiki](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
 * Queue
-  * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([Wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
+  * [Queue, based on array with deque optimisation](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/Queue.swift) ([wiki](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
   * Queue, based on linked list
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/QueueTests.swift)
 
