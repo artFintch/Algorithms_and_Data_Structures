@@ -9,6 +9,12 @@ This repository for my learning in different algorithms and data structures impl
 
 ## Algorithms
 * [Fisher–Yates shuffle](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Fisher–Yates_Shuffle.swift) ([wiki](https://en.wikipedia.org/wiki/Fisher–Yates_shuffle))
+* Sorting
+  * Insertion sort ([wiki](https://en.wikipedia.org/wiki/Insertion_sort))
+  * Selection sort ([wiki](https://en.wikipedia.org/wiki/Selection_sort))
+  * Merge sort ([wiki](https://en.wikipedia.org/wiki/Merge_sort))
+    * [Merge](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/Merge.swift) ([wiki](https://en.wikipedia.org/wiki/Merge_algorithm))
+  * Quick sort ([wiki](https://en.wikipedia.org/wiki/Quicksort))
 
 ## Data Structures
 * Linked List
