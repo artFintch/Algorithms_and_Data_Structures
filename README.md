@@ -14,7 +14,10 @@ This repository for my learning in different algorithms and data structures impl
   * Selection sort ([wiki](https://en.wikipedia.org/wiki/Selection_sort))
   * Merge sort ([wiki](https://en.wikipedia.org/wiki/Merge_sort))
     * [Merge](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/Merge.swift) ([wiki](https://en.wikipedia.org/wiki/Merge_algorithm))
+    * TopDown
+    * BottomTop
   * Quick sort ([wiki](https://en.wikipedia.org/wiki/Quicksort))
+    * Partition
 
 ## Data Structures
 * Linked List
