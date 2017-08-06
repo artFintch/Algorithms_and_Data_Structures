@@ -21,6 +21,7 @@ This repository for my learning in different algorithms and data structures impl
   * Heap sort ([wiki](https://en.wikipedia.org/wiki/Heapsort))
     * Sift up
     * Sift down
+  * Sleep sort :)
 
 ## Data Structures
 * Linked List
