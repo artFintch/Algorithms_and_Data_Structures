@@ -18,6 +18,9 @@ This repository for my learning in different algorithms and data structures impl
     * BottomTop
   * Quick sort ([wiki](https://en.wikipedia.org/wiki/Quicksort))
     * Partition
+  * Heap sort ([wiki](https://en.wikipedia.org/wiki/Heapsort))
+    * Sift up
+    * Sift down
 
 ## Data Structures
 * Linked List
