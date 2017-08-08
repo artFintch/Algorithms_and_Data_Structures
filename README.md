@@ -43,7 +43,13 @@ This repository for my learning in different algorithms and data structures impl
   * Circular queue
   * Queue, with getMin()
   * [Tests](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/DataStructures/Queue/QueueTests.swift)
-
+* Heap ([wiki](https://en.wikipedia.org/wiki/Heap_(data_structure)))
+  * Binary heap ([wiki](https://en.wikipedia.org/wiki/Binary_heap))
+  * K-ary heap ([wiki](https://en.wikipedia.org/wiki/D-ary_heap))
+  * Binomial heap ([wiki](https://en.wikipedia.org/wiki/Binomial_heap))
+  * Leftist heap ([wiki](https://en.wikipedia.org/wiki/Leftist_tree))
+  * Skew heap ([wiki](https://en.wikipedia.org/wiki/Skew_heap))
+  * Fibonacci heap ([wiki](https://en.wikipedia.org/wiki/Fibonacci_heap))
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
