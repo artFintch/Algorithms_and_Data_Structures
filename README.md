@@ -50,6 +50,10 @@ This repository for my learning in different algorithms and data structures impl
   * Leftist heap ([wiki](https://en.wikipedia.org/wiki/Leftist_tree))
   * Skew heap ([wiki](https://en.wikipedia.org/wiki/Skew_heap))
   * Fibonacci heap ([wiki](https://en.wikipedia.org/wiki/Fibonacci_heap))
+* Map / Dictionary / Associative array ([wiki](https://en.wikipedia.org/wiki/Associative_array))
+  * Hash table ([wiki](https://en.wikipedia.org/wiki/Hash_table))
+    * Open addressing ([wiki](https://en.wikipedia.org/wiki/Hash_table#Open_addressing))
+    * Chaining ([wiki](https://en.wikipedia.org/wiki/Hash_table#Separate_chaining))
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
