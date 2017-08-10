@@ -54,6 +54,7 @@ This repository for my learning in different algorithms and data structures impl
   * Hash table ([wiki](https://en.wikipedia.org/wiki/Hash_table))
     * Open addressing ([wiki](https://en.wikipedia.org/wiki/Hash_table#Open_addressing))
     * Chaining ([wiki](https://en.wikipedia.org/wiki/Hash_table#Separate_chaining))
+  * Search tree ([wiki](https://en.wikipedia.org/wiki/Search_tree))
 
 ## License
 Released under the MIT license. See [LICENSE](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/LICENSE) for details.
