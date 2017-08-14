@@ -12,7 +12,7 @@ This repository for my learning in different algorithms and data structures impl
 * Sorting
   * [Buble sort](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/BubleSort/BubleSort.swift) ([wiki](https://en.wikipedia.org/wiki/Bubble_sort))
   * Insertion sort ([wiki](https://en.wikipedia.org/wiki/Insertion_sort))
-  * Selection sort ([wiki](https://en.wikipedia.org/wiki/Selection_sort))
+  * [Selection sort](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/SelectionSort/SelectionSort.swift) ([wiki](https://en.wikipedia.org/wiki/Selection_sort))
   * Merge sort ([wiki](https://en.wikipedia.org/wiki/Merge_sort))
     * [Merge](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/Merge.swift) ([wiki](https://en.wikipedia.org/wiki/Merge_algorithm))
     * TopDown
