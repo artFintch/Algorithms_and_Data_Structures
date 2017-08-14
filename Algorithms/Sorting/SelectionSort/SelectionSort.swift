@@ -10,16 +10,14 @@ import Foundation
 
 func selectionSort<T: Comparable>(_ a: inout [T]) {
 	for i in a.indices {
-		var m = i
-		
+		var k = i
 		for j in i..<a.count {
-			if a[j] < a[m] {
-				m = j
+			if a[j] < a[k] {
+				k = j
 			}
 		}
-		
-		if m != i {
-			swap(&a[m], &a[i])
+		if k != i {
+			swap(&a[k], &a[i])
 		}
 	}
 }
