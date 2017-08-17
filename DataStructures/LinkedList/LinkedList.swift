@@ -40,7 +40,7 @@ public final class LinkedList<Value> {
 	}
 	
 	// Inserts a new value at the index.
-	// Complexity: O(n)
+	// Complexity: O(n). If index equals 0: O(1).
 	@discardableResult public func insert(value: Value, at index: Int) -> Bool {
 		if index < 0 || index > count { return false }
 		if index == count {
@@ -87,7 +87,7 @@ public final class LinkedList<Value> {
 	}
 	
 	// Removes a value at the index.
-	// Complexity: O(n)
+	// Complexity: O(n). If index equals 0: O(1).
 	@discardableResult public func remove(at index: Int) -> Value? {
 		if index < 0 || index >= count { return nil }
 		if index == count - 1 { return removeLast() }
