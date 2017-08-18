@@ -143,7 +143,7 @@ public struct Heap<Element: Comparable>: CustomDebugStringConvertible {
 	}
 	
 	// The array of heap elements.
-	private var a = [Element]()
+	private var a: [Element] = []
 	
 	// Returns debug description.
 	// Useful for tests.
