@@ -1,6 +1,6 @@
 //
 //  Heap.swift
-//  Min-heap
+//  Binary min-heap.
 //
 //  Created by Vyacheslav Khorkov on 18/08/2017.
 //  Copyright © 2017 Vyacheslav Khorkov. All rights reserved.
@@ -8,30 +8,29 @@
 
 import Foundation
 
-// Min-heap.
-public struct Heap<T>: CustomDebugStringConvertible where T: Comparable {
-	
-	// Return min value from heap.
+// Binary min-heap.
+public struct Heap<Element: Comparable>: CustomDebugStringConvertible {
+	// Return min element from heap.
 	// Complexity: O(1)
-	public var min: T? { return a.first }
+	public var min: Element? { return a.first }
 	
 	// Returns true if heap is empty.
 	// Complexity: O(1)
 	public var isEmpty: Bool { return a.isEmpty }
 	
-	// Returns the count of values.
+	// Returns the count of elements.
 	// Complexity: O(1)
 	public var count: Int { return a.count }
 	
 	// Build heap with array.
 	// Complexity: O(n)
-	public init(_ a: [T] = []) {
+	public init(_ a: [Element] = []) {
 		build(a)
 	}
 	
-	// Deletes and returns a minimum value from heap.
+	// Deletes and returns a minimum element from heap.
 	// Complexity: O(log n)
-	public mutating func extractMin() -> T? {
+	public mutating func extractMin() -> Element? {
 		guard !isEmpty else { return nil }
 		guard count > 1 else { return a.removeLast() }
 		swap(0, a.count - 1)
@@ -40,16 +39,16 @@ public struct Heap<T>: CustomDebugStringConvertible where T: Comparable {
 		return root
 	}
 	
-	// Inserts a new value to heap and supports heap property.
+	// Inserts a new element to heap and supports heap property.
 	// Complexity: O(log n)
-	public mutating func insert(_ value: T) {
-		a.append(value)
+	public mutating func insert(_ element: Element) {
+		a.append(element)
 		siftUp()
 	}
 	
 	// Build heap with array.
 	// Complexity: O(n)
-	private mutating func build(_ a: [T]) {
+	private mutating func build(_ a: [Element]) {
 		self.a = a
 		for i in stride(from: a.count / 2 - 1, through: 0, by: -1) {
 			siftDown(i)
@@ -82,7 +81,7 @@ public struct Heap<T>: CustomDebugStringConvertible where T: Comparable {
 	
 	// Returns a minimum child of the parent and its index.
 	// Complexity: O(1)
-	private func minChild(parent: Int) -> (child: T, index: Int)? {
+	private func minChild(parent: Int) -> (child: Element, index: Int)? {
 		if let x = left(parent), let y = right(parent) {
 			return x < y ?
 				(child: x, index: leftIndex(parent)) :
@@ -95,31 +94,31 @@ public struct Heap<T>: CustomDebugStringConvertible where T: Comparable {
 		return nil
 	}
 	
-	// Swaps two values by their indexes.
+	// Swaps two elements by their indexes.
 	// Complexity: O(1)
 	private mutating func swap(_ i: Int, _ j: Int) {
 		Swift.swap(&a[i], &a[j])
 	}
 	
-	// Returns the parent value of child.
+	// Returns the parent element of child.
 	// Complexity: O(1)
-	private func parent(_ child: Int) -> T? {
+	private func parent(_ child: Int) -> Element? {
 		let i = parentIndex(child)
 		guard i >= 0 && i < a.count else { return nil }
 		return a[i]
 	}
 	
-	// Returns the left child value of parent.
+	// Returns the left child element of parent.
 	// Complexity: O(1)
-	private func left(_ parent: Int) -> T? {
+	private func left(_ parent: Int) -> Element? {
 		let i = leftIndex(parent)
 		guard i < a.count else { return nil }
 		return a[i]
 	}
 	
-	// Returns the right child value of parent.
+	// Returns the right child element of parent.
 	// Complexity: O(1)
-	private func right(_ parent: Int) -> T? {
+	private func right(_ parent: Int) -> Element? {
 		let i = rightIndex(parent)
 		guard i < a.count else { return nil }
 		return a[i]
@@ -143,13 +142,12 @@ public struct Heap<T>: CustomDebugStringConvertible where T: Comparable {
 		return parent * 2 + 2
 	}
 	
-	// The array of heap values.
-	private var a = [T]()
+	// The array of heap elements.
+	private var a = [Element]()
 	
 	// Returns debug description.
 	// Useful for tests.
 	public var debugDescription: String {
 		return a.description
 	}
-	
 }
