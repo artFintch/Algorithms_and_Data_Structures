@@ -1,6 +1,6 @@
 //
 //  Stack.swift
-//  Stack
+//  Stack based on array
 //
 //  Created by Vyacheslav Khorkov on 30/07/2017.
 //  Copyright © 2017 Vyacheslav Khorkov. All rights reserved.
@@ -8,22 +8,33 @@
 
 import Foundation
 
-public struct Stack<T> {
+// Stack based on array.
+public struct Stack<Element> {
+	// Returns true if stack is empty.
+	// Complexity: O(1)
+	public var isEmpty: Bool { return a.isEmpty }
 	
-	public var isEmpty: Bool { return array.isEmpty }
-	public var count: Int { return array.count }
-	public var top: T? { return array.last }
+	// Returns the count of elements.
+	// Complexity: O(1)
+	public var count: Int { return a.count }
 	
-	public mutating func push(_ value: T) {
-		array.append(value)
+	// Returns the top element of stack.
+	// Complexity: O(1)
+	public var top: Element? { return a.last }
+	
+	// Appends a new element to the top.
+	// Complexity: O(1)
+	public mutating func push(_ element: Element) {
+		a.append(element)
 	}
 	
-	public mutating func pop() -> T? {
-		return array.popLast()
+	// Removes and returns the top element.
+	// Complexity: O(1)
+	public mutating func pop() -> Element? {
+		return a.popLast()
 	}
 	
-	// MARK: - Private
-	
-	private var array = [T]()
-	
+	// This stack based on array.
+	// Memory: O(n)
+	private var a: [Element] = []
 }
