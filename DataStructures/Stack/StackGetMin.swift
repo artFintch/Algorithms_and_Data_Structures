@@ -1,6 +1,6 @@
 //
 //  Stack.swift
-//  Stack GetMin()
+//  Stack based on two arrays.
 //
 //  Created by Vyacheslav Khorkov on 16/08/2017.
 //  Copyright © 2017 Vyacheslav Khorkov. All rights reserved.
@@ -8,26 +8,43 @@
 
 import Foundation
 
-public struct Stack<T> {
+// Stack based on two arrays.
+public struct Stack<Element: Comparable> {
+	// Returns true if stack is empty.
+	// Complexity: O(1)
+	public var isEmpty: Bool { return a.isEmpty }
 	
-	public var isEmpty: Bool { return array.isEmpty }
-	public var count: Int { return array.count }
-	public var top: T? { return array.last }
-	public var min: T? { return minimums.last }
+	// Returns the count of elements.
+	// Complexity: O(1)
+	public var count: Int { return a.count }
 	
-	public mutating func push(_ value: T) {
-		array.append(value)
-		minimums.append(Swift.min(value, min ?? value))
+	// Returns the top element of stack.
+	// Complexity: O(1)
+	public var top: Element? { return a.last }
+	
+	// Returns the minimum element.
+	// CompComplexity: O(1)
+	public var min: Element? { return mins.last }
+	
+	// Appends a new element to the top.
+	// Complexity: O(1)
+	public mutating func push(_ element: Element) {
+		a.append(element)
+		mins.append(Swift.min(element, min ?? element))
 	}
 	
-	public mutating func pop() -> T? {
-		minimums.popLast()
-		return array.popLast()
+	// Removes and returns the top element.
+	// Complexity: O(1)
+	public mutating func pop() -> Element? {
+		mins.popLast()
+		return a.popLast()
 	}
 	
-	// MARK: - Private
+	// This stack based on array.
+	// Memory: O(n)
+	private var a: [Element] = []
 	
-	private var array = [T]()
-	private var minimums = [T]()
-	
+	// Additional array for minimums.
+	// Memory: O(n)
+	private var mins: [Element] = []
 }
