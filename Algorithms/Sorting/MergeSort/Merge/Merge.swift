@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Merge two arrays.
 // Time: O(n + m)
 // Memory: O(n + m)
 func merge<T: Comparable>(_ a: [T], _ b: [T]) -> [T] {
