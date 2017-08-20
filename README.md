@@ -14,8 +14,8 @@ This repository for my learning in different algorithms and data structures impl
   * [Insertion sort](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/InsertionSort/InsertionSort.swift) ([wiki](https://en.wikipedia.org/wiki/Insertion_sort))
   * [Selection sort](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/SelectionSort/SelectionSort.swift) ([wiki](https://en.wikipedia.org/wiki/Selection_sort))
   * Merge sort ([wiki](https://en.wikipedia.org/wiki/Merge_sort))
-    * [Merge](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/Merge/Merge.swift) ([wiki](https://en.wikipedia.org/wiki/Merge_algorithm))
-    * TopDown
+    * [Merge](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/Merge.swift) ([wiki](https://en.wikipedia.org/wiki/Merge_algorithm))
+    * [TopDown](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/MergeSort.swift)
     * BottomTop
   * Quick sort ([wiki](https://en.wikipedia.org/wiki/Quicksort))
     * Partition
