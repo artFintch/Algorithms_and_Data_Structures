@@ -10,7 +10,6 @@ import Foundation
 
 // Singly linked list without optimisations.
 public final class LinkedList<Value> {
-	
 	// Returns the first value.
 	// Complexity: O(1)
 	public var first: Value? { return head?.value }
@@ -149,5 +148,4 @@ public final class LinkedList<Value> {
 		}
 		return cur
 	}
-	
 }

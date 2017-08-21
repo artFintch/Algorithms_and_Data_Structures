@@ -8,15 +8,26 @@
 
 import Foundation
 
+// Singly linked list with tail optimisation.
 public final class LinkedListWithTail<Value> {
-	
+	// Returns the first value.
+	// Complexity: O(1)
 	public var first: Value? { return head?.value }
+	
+	// Returns the last value.
+	// Complexity: O(1)
 	public var last: Value? { return tail?.value }
+	
+	// Returns true if list is empty.
+	// Complexity: O(1)
 	public var isEmpty: Bool { return head == nil }
+	
+	// Returns the count of values.
+	// Complexity: O(1)
 	public private(set) var count = 0
 	
-	// MARK: - Add new element
-	
+	// Appends a new value to the end.
+	// Complexity: O(1)
 	public func append(value: Value) {
 		let newNode = Node(value: value)
 		if isEmpty {
@@ -29,6 +40,8 @@ public final class LinkedListWithTail<Value> {
 		count += 1
 	}
 	
+	// Inserts a new value at the index.
+	// Complexity: O(n). If index equals 0: O(1).
 	@discardableResult public func insert(value: Value, at index: Int) -> Bool {
 		if index < 0 || index > count { return false }
 		if index == count {
@@ -51,14 +64,16 @@ public final class LinkedListWithTail<Value> {
 		return true
 	}
 	
-	// MARK: - Remove element(s)
-	
+	// Removes all values.
+	// Complexity: O(1)
 	public func removeAll() {
 		head = nil
 		tail = nil
 		count = 0
 	}
 	
+	// Removes the last value.
+	// Complexity: O(1)
 	@discardableResult public func removeLast() -> Value? {
 		if count <= 1 {
 			let headValue = head?.value
@@ -74,6 +89,8 @@ public final class LinkedListWithTail<Value> {
 		}
 	}
 	
+	// Removes a value at the index.
+	// Complexity: O(n). If index equals 0: O(1).
 	@discardableResult public func remove(at index: Int) -> Value? {
 		if index < 0 || index >= count { return nil }
 		if index == count - 1 { return removeLast() }
@@ -92,15 +109,16 @@ public final class LinkedListWithTail<Value> {
 		return rem?.value
 	}
 	
-	// MARK: - Get element
-	
+	// Returns a value at the index.
+	// Complexity: O(n)
 	public subscript(index: Int) -> Value? {
 		return nodeAt(index: index)?.value
 	}
 	
-	// MARK: - Private
-	
+	// Convenience of use.
 	private typealias Node = ListNode<Value>
+	
+	// Linked list node structure.
 	private final class ListNode<Value> {
 		let value: Value
 		var next: Node?
@@ -110,9 +128,16 @@ public final class LinkedListWithTail<Value> {
 		}
 	}
 	
+	// Returns head of list.
+	// Complexity: O(1)
 	private var head: Node?
+	
+	// Returns tail of list.
+	// Complexity: O(1)
 	private var tail: Node?
 	
+	// Returns a value at the index.
+	// Complexity: O(n)
 	private func nodeAt(index: Int) -> Node? {
 		if isEmpty { return nil }
 		if index < 0 || index >= count { return nil }
@@ -126,5 +151,4 @@ public final class LinkedListWithTail<Value> {
 		}
 		return cur
 	}
-	
 }
