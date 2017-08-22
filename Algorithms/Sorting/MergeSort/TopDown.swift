@@ -1,6 +1,6 @@
 //
 //  MergeSort.swift
-//  Merge sort top down
+//  MergeSort TopDown
 //
 //  Created by Vyacheslav Khorkov on 20/08/2017.
 //  Copyright © 2017 Vyacheslav Khorkov. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-// Merge sort top down.
+// MergeSort TopDown.
 // Time: O(n log n)
 // Memory: O(n)
 func mergeSort<T: Comparable>(_ a: [T]) -> [T] {
