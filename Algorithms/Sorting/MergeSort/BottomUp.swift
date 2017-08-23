@@ -1,5 +1,5 @@
 //
-//  MergeSort.swift
+//  BottomUp.swift
 //  MergeSort BottomUp
 //
 //  Created by Vyacheslav Khorkov on 22/08/2017.

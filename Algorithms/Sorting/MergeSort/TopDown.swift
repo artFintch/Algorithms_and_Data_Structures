@@ -1,5 +1,5 @@
 //
-//  MergeSort.swift
+//  TopDown.swift
 //  MergeSort TopDown
 //
 //  Created by Vyacheslav Khorkov on 20/08/2017.
