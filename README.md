@@ -19,6 +19,9 @@ This repository for my learning in different algorithms and data structures impl
     * [BottomUp](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/MergeSort/BottomUp.swift)
   * Quick sort ([wiki](https://en.wikipedia.org/wiki/Quicksort))
     * Partition
+      * Lomuto
+      * Hoare
+      * Random
   * Heap sort ([wiki](https://en.wikipedia.org/wiki/Heapsort))
     * Sift up
     * Sift down
