@@ -22,7 +22,7 @@ This repository for my learning in different algorithms and data structures impl
       * Lomuto
       * Hoare
       * Random
-  * Heap sort ([wiki](https://en.wikipedia.org/wiki/Heapsort))
+  * [Heap sort](https://github.com/artFintch/Algorithms_and_Data_Structures/blob/master/Algorithms/Sorting/HeapSort/HeapSort.swift) ([wiki](https://en.wikipedia.org/wiki/Heapsort))
     * Sift up
     * Sift down
   * Sleep sort :)
